@@ -60,4 +60,5 @@ public class AssertionTest {
             () -> calculator.operate(5, "?", 2));
         assertEquals("잘못된 연산자입니다.", exception.getMessage());
     }
+    
 }
